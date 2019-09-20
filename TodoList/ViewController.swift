@@ -10,11 +10,7 @@ import UIKit
 
 class ViewController: UITableViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
+    
     let items = ["Find dance","complete ios","Healing"]
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
